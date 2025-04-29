@@ -1,0 +1,12 @@
+Library  |Minimum Version | Why it's needed
+
+streamlit | >=1.32        | To build the web app (your app.py uses it)
+numpy | >=1.26            | Numerical arrays (audio processing needs it)
+librosa | >=0.10          | Audio feature extraction (MFCCs)
+scikit-learn | >=1.4      | Machine learning model (Logistic Regression)
+sounddevice | >=0.4       | Recording audio from microphone
+soundfile | >=0.12        | Saving recorded audio in memory (WAV format)
+joblib | >=1.3            | Saving/loading model and scaler (gender_classifier.pkl, scaler.pkl)
+pandas | >=2.2            | Handling datasets (voice.csv)
+tqdm | >=4.66             | Showing progress bar when extracting MFCCs
+matplotlib | >=3.8        | Plotting confusion matrix during training
